@@ -1,0 +1,234 @@
+.nav_container{
+	padding-right: 2vw;
+	padding-top: 2vw;
+	display: inline;
+}
+
+.nav_container ul{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	padding-left: 75vw;
+}
+
+.nav_container ul li{
+	display: inline;
+}
+
+nav button{
+	width: 6vw;
+	height: 2.8vw;
+	background-color: transparent;
+	padding-right: 0vw;
+	border-radius: 6em;
+	border: none;
+}
+#logo1
+{
+	object-position: fixed;
+	height: 6vw;
+	width: 6vw;
+	padding-left: 2vw;
+}
+button a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+nav button:hover{
+	/*background-color: rgba(100,100,120,0.5);*/
+	background-color: #cb202d;
+	font-color: white;
+	border-radius: 0.6em;
+	border:thick;
+}
+
+.registration_form2{
+		width: 40vw;
+		height: 47vw;
+		background-color: rgba(255,255,255,0.8);
+		color:#fff;
+		position: absolute;
+		left:14%;
+		top:73%;
+		box-sizing: border-box;
+		padding: 30px 50px;
+		border-radius:20px;
+		font-family: "Ubuntu";
+		border-style: solid;
+		border-color: #D70F64;
+		border-width: 3px;
+		/*border-right: 5px solid red;*/
+}
+
+.registration_form{
+		width: 40vw;
+		height: 43vw;
+		background-color: rgba(255,255,255,0.8);
+		color:#fff;
+		position: absolute;
+		left:30%;
+		top:35%;
+		box-sizing: border-box;
+		padding: 30px 50px;
+		border-radius:20px;
+		font-family: "Ubuntu";
+}
+
+  h1{
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+		text-align: center;
+		font-family: "Ubuntu";
+		color: #D70F64;
+	}
+.registration_form p,
+.registration_form2 p{
+		margin: 0;
+		padding-top: 2px;
+		font-weight: italic;
+		color: #D70F64;
+}
+.registration_form input{
+		width: 100%;
+		margin-bottom: 15px;
+		font-family: "Ubuntu";
+		font-size: 1.12vw;
+}
+
+.registration_form2 input{
+		width: 100%;
+		margin-bottom: 15px;
+		font-family: "Ubuntu";
+		font-size: 1.12vw;
+}
+.registration_form2 input[type="text"],input[type="password"],input[type="number"],input[type="email"],input[type="Password"],textarea
+{
+	border: 1px solid #D70F64;
+	height: 25px;
+	border-radius: 12px;
+	padding-left: 0.8rem;
+}
+.registration_form input[type="text"],input[type="password"],input[type="number"],input[type="email"]
+	{
+		height: 25px;
+		border-radius: 12px;
+		border: 1px solid #fff;
+		padding-left: 0.8rem;
+	}
+
+.registration_form input[type="file"],
+.registration_form2 input[type="file"]
+{
+	border: none;
+}
+.registration_form input[type="submit"],
+.registration_form2 input[type="submit"]
+{
+		border:none;
+		outline: none;
+		height: 40px;
+		width: 22vw;
+		margin-left: 6.5vw;
+		background:#D70F64;
+		font-size:18px;
+		font-weight: bold;
+        border-radius: 18px;
+         box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    color: white;
+	}
+.registration_form input[type="file"],
+.registration_form2 input[type="file"]
+{
+	font-family: "Ubuntu";
+	font-size: 1.12vw;
+}
+.registration_form input[type="submit"]:hover,
+.registration_form2 input[type="submit"]:hover
+{
+     cursor:pointer;
+    -webkit-transform: scale(1.1);
+	}
+#submit{
+	padding-left: 2px;
+}
+
+.loginbox{
+	width: 28em;
+	height: 35em;
+	color:#fff;
+	position: absolute;
+	left:36%;
+	top:45%;
+	box-sizing: border-box;
+	padding: 30px 50px;
+	border-radius:18px;
+	font-family: "Ubuntu";
+	background-color: rgba(255,255,255,0.8);
+
+}
+.loginbox h1{
+	margin: 0;
+	padding: 0;
+	color: #D70F64;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Ubuntu";
+}
+.loginbox p{
+	margin: 0;
+	padding-top: 2px;
+	font-weight: italic;
+	font-family: "Ubuntu";
+	color: #D70F64;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"],input[type="email"]
+{
+	border:none;
+	height: 30px;
+	border-radius: 12px;
+	border-bottom: 1px solid #fff;
+	padding-left: 0.8rem;
+}
+.loginbox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #D70F64;
+	color: white;
+	font-size:18px;
+    border-radius: 18px;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    -webkit-transform: scale(1.1);
+    background: #D70F64;
+    color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 1vw;
+	font-weight: bold;
+}
+.loginbox_restaurant{
+	width: 17em;
+	height: 30em;
+	color:#fff;
+	position: absolute;
+	left:78%;
+	top:45%;
+	box-sizing: border-box;
+	padding: 30px 50px;
+	border-radius:18px;
+	font-family: "Ubuntu";
+}

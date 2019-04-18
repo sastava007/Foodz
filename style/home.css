@@ -1,0 +1,62 @@
+.nav_container{
+	padding-right: 2vw;
+	padding-top: 2vw;
+	display: inline;
+}
+
+.nav_container ul{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	padding-left: 75vw;
+}
+
+.nav_container ul li{
+	display: inline;
+}
+
+nav button{
+	width: 6vw;
+	height: 2.8vw;
+	background-color: transparent;
+	padding-right: 0vw;
+	border-radius: 6em;
+	border: none;
+}
+#logo1
+{
+	object-position: fixed;
+	height: 6vw;
+	width: 6vw;
+	padding-left: 2vw;
+}
+button a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+nav button:hover{
+	/*background-color: rgba(100,100,120,0.5);*/
+	background-color: #cb202d;
+	font-color: white;
+	border-radius: 0.6em;
+	border:thick;
+}
+#home_bg
+{
+	height: 32vw;
+	width: 98vw;
+	position: relative;
+}
+.info_pallete
+{
+	padding-left: 5vw;
+	display: flex;
+	flex-direction: row;
+	height: 25vw;
+}
+.btn btn-primary
+{
+	background-color: #D70F64;
+}
