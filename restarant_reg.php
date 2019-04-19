@@ -99,16 +99,6 @@ if($conn)
   </div>
 </div>
 
-
-<!-- 
-	<div class="working" style="left: 69%; top: 75%; position: absolute;">
-		<p style="text-align: center;"><b>How it Works?</b></p>
-		<ul>
-			<li>If you are the owner of a restaurant, or if you are a user who's discovered a place not listed on Foodz, let us know using this form.</li>&nbsp;
-			<li>Once you send the information to us, our awesome content team will verify it. To help speed up the process, please provide a contact number or email address.</li>&nbsp;
-			<li>That's it! Once verified the listing will start appearing on Foodz</li>
-		</ul>
-	</div> -->
 	<div class="registration_form2">
 		<h1 style="text-align: left;">Add a Restaurant</h1><br><br>
 		<form name="regform" method="post" action="restarant_reg.php" enctype="multipart/form-data">
@@ -117,9 +107,9 @@ if($conn)
 			<p>Email</p>
 			<input type="email" name="email" id="email" placeholder="Enter Email Id" required>
 			<p>Password</p>
-			<input type="Password" name="pass1" id="password" placeholder="Enter Password" required>
+			<input type="password" name="pass1" id="password" placeholder="Enter Password" required>
 			<p>Confirm Password</p>
-			<input type="Password" name="pass2" id="confirm password" placeholder="Confirm Password" required>
+			<input type="password" name="pass2" id="confirm password" placeholder="Confirm Password" required>
 			<p>Mobile Number</p>
 			<input type="Number" name="phone" id="mobile number" placeholder="Enter Mobile No" required>
 			<p>Address</p>
